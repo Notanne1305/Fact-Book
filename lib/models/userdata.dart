@@ -11,7 +11,7 @@
         time: '2 hours ago',
         postcontent: 'Rice cake mo diha guys, 99 lang',
         postimg: 'assets/post1.jpg',
-        numcomments: '10',
+        numcomments: '6',
         numshares: '5',
         isLiked: false
       ),
@@ -67,18 +67,30 @@
     ];
 
     List <Usercomment> commentList = [
+      Usercomment(commenterImg: 'assets/person1.jpg', 
+                  commenterName: 'Bongga K. Day',   
+                  commentTime: '6 hrs', 
+                  commentContent: 'Shesh'),
       Usercomment(commenterImg: 'assets/person2.jpg', 
                   commenterName: 'John Doe',   
                   commentTime: '6 hrs', 
                   commentContent: 'Wow sarap sarap'),
-    Usercomment(commenterImg: 'assets/person3.jpg', 
-                  commenterName: 'Jane Doe',   
-                  commentTime: '2 hrs', 
-                  commentContent: 'Paldotch'),
-    Usercomment(commenterImg: 'assets/person4.jpg', 
-                  commenterName: 'Boyet Ravena',   
-                  commentTime: '8 hrs', 
-                  commentContent: 'Holy'),
+      Usercomment(commenterImg: 'assets/person3.jpg', 
+                    commenterName: 'Jane Doe',   
+                    commentTime: '2 hrs', 
+                    commentContent: 'Paldotch'),
+      Usercomment(commenterImg: 'assets/person4.jpg', 
+                    commenterName: 'Boyet Ravena',   
+                    commentTime: '8 hrs', 
+                    commentContent: 'Holy'),
+      Usercomment(commenterImg: 'assets/person5.jpg', 
+                    commenterName: 'Vhong B. Ang',   
+                    commentTime: '8 hrs', 
+                    commentContent: 'The Best'),
+      Usercomment(commenterImg: 'assets/person6.jpg', 
+                    commenterName: 'Mommy Jupeta',   
+                    commentTime: '8 hrs', 
+                    commentContent: 'Galing!'),
     ];
     
     Account myUserAccount = Account(
